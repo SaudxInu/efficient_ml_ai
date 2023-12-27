@@ -1,0 +1,36 @@
+~/De/E/Labs/Lab 5/tinychat-tutorial/transformer main = !4 ?3 ❯ ./evaluate.sh reference                                                                              7s Py efficient_ml_ai 01:54:10 AM
+-------- Sanity check of reference implementation: Passed! -------- 
+Section, Total time(ms), Average time(ms), Count, GOPs
+reference, 2544.760010, 254.475998, 10, 1.030133
+
+All tests completed!
+~/De/E/Labs/Lab 5/tinychat-tutorial/transformer main = !4 ?3 ❯ ./evaluate.sh loop_unrolling                                                                         9s Py efficient_ml_ai 01:54:25 AM
+-------- Sanity check of loop_unrolling implementation: Passed! -------- 
+Section, Total time(ms), Average time(ms), Count, GOPs
+loop_unrolling, 1957.602051, 195.759995, 10, 1.339108
+
+All tests completed!
+~/De/E/Labs/Lab 5/tinychat-tutorial/transformer main = !4 ?3 ❯ ./evaluate.sh multithreading                                                                         8s Py efficient_ml_ai 01:54:47 AM
+-------- Sanity check of multithreading implementation: Passed! -------- 
+Section, Total time(ms), Average time(ms), Count, GOPs
+multithreading, 674.619019, 67.460999, 10, 3.885808
+
+All tests completed!
+~/De/E/Labs/Lab 5/tinychat-tutorial/transformer main = !4 ?3 ❯ ./evaluate.sh multithreading_loop_unrolling                                                          7s Py efficient_ml_ai 01:55:00 AM
+-------- Sanity check of multithreading_loop_unrolling implementation: Passed! -------- 
+Section, Total time(ms), Average time(ms), Count, GOPs
+multithreading_loop_unrolling, 520.138977, 52.013000, 10, 5.039884
+
+All tests completed!
+
+-------- Sanity check of simd_programming implementation: Passed! -------- 
+Section, Total time(ms), Average time(ms), Count, GOPs
+simd_programming, 1144.545044, 114.454002, 10, 2.290377
+
+All tests completed!
+
+-------- Sanity check of all_techniques implementation: Passed! -------- 
+Section, Total time(ms), Average time(ms), Count, GOPs
+all_techniques, 125.379997, 12.538000, 10, 20.907959
+
+All tests completed!
